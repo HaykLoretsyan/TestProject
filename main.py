@@ -48,7 +48,7 @@ def gameMenu(Display,clock):
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RETURN:
                     if select == 0:
-                        gameLoop(Display,clock,1,2)
+                        gameLoop(Display,clock,1,0)
                     elif select == 3:
                         running = 0
                 elif event.key == pygame.K_UP:
